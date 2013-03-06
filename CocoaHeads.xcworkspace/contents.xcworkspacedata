@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ViewNotLoaded/ViewNotLoaded.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RainbowLogs/RainbowLogs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Forty degrees in the shade/Forty degrees in the shade.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CALayerTrap/CALayerTrap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:What the ARC/What the ARC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TooNew/TooNew and NSLog.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSURLTrap/NSURLTrap.xcodeproj">
+   </FileRef>
+</Workspace>

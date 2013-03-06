@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA2F34F16E79EB1009CE8B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA2F34E16E79EB1009CE8B9 /* UIKit.framework */; };
+		6EA2F35116E79EB1009CE8B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA2F35016E79EB1009CE8B9 /* Foundation.framework */; };
+		6EA2F35316E79EB1009CE8B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA2F35216E79EB1009CE8B9 /* CoreGraphics.framework */; };
+		6EA2F35916E79EB2009CE8B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F35716E79EB2009CE8B9 /* InfoPlist.strings */; };
+		6EA2F35B16E79EB2009CE8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F35A16E79EB2009CE8B9 /* main.m */; };
+		6EA2F35F16E79EB2009CE8B9 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F35E16E79EB2009CE8B9 /* CHAppDelegate.m */; };
+		6EA2F36116E79EB2009CE8B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F36016E79EB2009CE8B9 /* Default.png */; };
+		6EA2F36316E79EB2009CE8B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F36216E79EB2009CE8B9 /* Default@2x.png */; };
+		6EA2F36516E79EB2009CE8B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F36416E79EB2009CE8B9 /* Default-568h@2x.png */; };
+		6EA2F36816E79EB2009CE8B9 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F36716E79EB2009CE8B9 /* CHViewController.m */; };
+		6EA2F36B16E79EB2009CE8B9 /* CHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F36916E79EB2009CE8B9 /* CHViewController.xib */; };
+		6EA2F38216E79ECD009CE8B9 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37316E79ECD009CE8B9 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38316E79ECD009CE8B9 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37516E79ECD009CE8B9 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38416E79ECD009CE8B9 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37716E79ECD009CE8B9 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38516E79ECD009CE8B9 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37916E79ECD009CE8B9 /* DDLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38616E79ECD009CE8B9 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37B16E79ECD009CE8B9 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38716E79ECD009CE8B9 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F37E16E79ECD009CE8B9 /* ContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38816E79ECD009CE8B9 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2F38016E79ECD009CE8B9 /* DispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA2F38916E79ECD009CE8B9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2F38116E79ECD009CE8B9 /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EA2F34B16E79EB1009CE8B9 /* RainbowLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA2F34E16E79EB1009CE8B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EA2F35016E79EB1009CE8B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EA2F35216E79EB1009CE8B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EA2F35616E79EB2009CE8B9 /* RainbowLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RainbowLogs-Info.plist"; sourceTree = "<group>"; };
+		6EA2F35816E79EB2009CE8B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EA2F35A16E79EB2009CE8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EA2F35C16E79EB2009CE8B9 /* RainbowLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RainbowLogs-Prefix.pch"; sourceTree = "<group>"; };
+		6EA2F35D16E79EB2009CE8B9 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		6EA2F35E16E79EB2009CE8B9 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		6EA2F36016E79EB2009CE8B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6EA2F36216E79EB2009CE8B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6EA2F36416E79EB2009CE8B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6EA2F36616E79EB2009CE8B9 /* CHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
+		6EA2F36716E79EB2009CE8B9 /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
+		6EA2F36A16E79EB2009CE8B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHViewController.xib; sourceTree = "<group>"; };
+		6EA2F37216E79ECD009CE8B9 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		6EA2F37316E79ECD009CE8B9 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		6EA2F37416E79ECD009CE8B9 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		6EA2F37516E79ECD009CE8B9 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		6EA2F37616E79ECD009CE8B9 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		6EA2F37716E79ECD009CE8B9 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		6EA2F37816E79ECD009CE8B9 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		6EA2F37916E79ECD009CE8B9 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		6EA2F37A16E79ECD009CE8B9 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		6EA2F37B16E79ECD009CE8B9 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		6EA2F37D16E79ECD009CE8B9 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		6EA2F37E16E79ECD009CE8B9 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		6EA2F37F16E79ECD009CE8B9 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		6EA2F38016E79ECD009CE8B9 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		6EA2F38116E79ECD009CE8B9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6EA2F38A16E79F23009CE8B9 /* CHLogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLogConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA2F34816E79EB1009CE8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA2F34F16E79EB1009CE8B9 /* UIKit.framework in Frameworks */,
+				6EA2F35116E79EB1009CE8B9 /* Foundation.framework in Frameworks */,
+				6EA2F35316E79EB1009CE8B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA2F34216E79EB1009CE8B9 = {
+			isa = PBXGroup;
+			children = (
+				6EA2F35416E79EB1009CE8B9 /* RainbowLogs */,
+				6EA2F34D16E79EB1009CE8B9 /* Frameworks */,
+				6EA2F34C16E79EB1009CE8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA2F34C16E79EB1009CE8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F34B16E79EB1009CE8B9 /* RainbowLogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA2F34D16E79EB1009CE8B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F34E16E79EB1009CE8B9 /* UIKit.framework */,
+				6EA2F35016E79EB1009CE8B9 /* Foundation.framework */,
+				6EA2F35216E79EB1009CE8B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EA2F35416E79EB1009CE8B9 /* RainbowLogs */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F37116E79ECD009CE8B9 /* Lumberjack */,
+				6EA2F35D16E79EB2009CE8B9 /* CHAppDelegate.h */,
+				6EA2F35E16E79EB2009CE8B9 /* CHAppDelegate.m */,
+				6EA2F36616E79EB2009CE8B9 /* CHViewController.h */,
+				6EA2F36716E79EB2009CE8B9 /* CHViewController.m */,
+				6EA2F36916E79EB2009CE8B9 /* CHViewController.xib */,
+				6EA2F35516E79EB2009CE8B9 /* Supporting Files */,
+				6EA2F38A16E79F23009CE8B9 /* CHLogConfig.h */,
+			);
+			path = RainbowLogs;
+			sourceTree = "<group>";
+		};
+		6EA2F35516E79EB2009CE8B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F35616E79EB2009CE8B9 /* RainbowLogs-Info.plist */,
+				6EA2F35716E79EB2009CE8B9 /* InfoPlist.strings */,
+				6EA2F35A16E79EB2009CE8B9 /* main.m */,
+				6EA2F35C16E79EB2009CE8B9 /* RainbowLogs-Prefix.pch */,
+				6EA2F36016E79EB2009CE8B9 /* Default.png */,
+				6EA2F36216E79EB2009CE8B9 /* Default@2x.png */,
+				6EA2F36416E79EB2009CE8B9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EA2F37116E79ECD009CE8B9 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F37216E79ECD009CE8B9 /* DDAbstractDatabaseLogger.h */,
+				6EA2F37316E79ECD009CE8B9 /* DDAbstractDatabaseLogger.m */,
+				6EA2F37416E79ECD009CE8B9 /* DDASLLogger.h */,
+				6EA2F37516E79ECD009CE8B9 /* DDASLLogger.m */,
+				6EA2F37616E79ECD009CE8B9 /* DDFileLogger.h */,
+				6EA2F37716E79ECD009CE8B9 /* DDFileLogger.m */,
+				6EA2F37816E79ECD009CE8B9 /* DDLog.h */,
+				6EA2F37916E79ECD009CE8B9 /* DDLog.m */,
+				6EA2F37A16E79ECD009CE8B9 /* DDTTYLogger.h */,
+				6EA2F37B16E79ECD009CE8B9 /* DDTTYLogger.m */,
+				6EA2F37C16E79ECD009CE8B9 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		6EA2F37C16E79ECD009CE8B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2F37D16E79ECD009CE8B9 /* ContextFilterLogFormatter.h */,
+				6EA2F37E16E79ECD009CE8B9 /* ContextFilterLogFormatter.m */,
+				6EA2F37F16E79ECD009CE8B9 /* DispatchQueueLogFormatter.h */,
+				6EA2F38016E79ECD009CE8B9 /* DispatchQueueLogFormatter.m */,
+				6EA2F38116E79ECD009CE8B9 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EA2F34A16E79EB1009CE8B9 /* RainbowLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA2F36E16E79EB2009CE8B9 /* Build configuration list for PBXNativeTarget "RainbowLogs" */;
+			buildPhases = (
+				6EA2F34716E79EB1009CE8B9 /* Sources */,
+				6EA2F34816E79EB1009CE8B9 /* Frameworks */,
+				6EA2F34916E79EB1009CE8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowLogs;
+			productName = RainbowLogs;
+			productReference = 6EA2F34B16E79EB1009CE8B9 /* RainbowLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EA2F34316E79EB1009CE8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michal Zygar";
+			};
+			buildConfigurationList = 6EA2F34616E79EB1009CE8B9 /* Build configuration list for PBXProject "RainbowLogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EA2F34216E79EB1009CE8B9;
+			productRefGroup = 6EA2F34C16E79EB1009CE8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EA2F34A16E79EB1009CE8B9 /* RainbowLogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA2F34916E79EB1009CE8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA2F35916E79EB2009CE8B9 /* InfoPlist.strings in Resources */,
+				6EA2F36116E79EB2009CE8B9 /* Default.png in Resources */,
+				6EA2F36316E79EB2009CE8B9 /* Default@2x.png in Resources */,
+				6EA2F36516E79EB2009CE8B9 /* Default-568h@2x.png in Resources */,
+				6EA2F36B16E79EB2009CE8B9 /* CHViewController.xib in Resources */,
+				6EA2F38916E79ECD009CE8B9 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EA2F34716E79EB1009CE8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA2F35B16E79EB2009CE8B9 /* main.m in Sources */,
+				6EA2F35F16E79EB2009CE8B9 /* CHAppDelegate.m in Sources */,
+				6EA2F36816E79EB2009CE8B9 /* CHViewController.m in Sources */,
+				6EA2F38216E79ECD009CE8B9 /* DDAbstractDatabaseLogger.m in Sources */,
+				6EA2F38316E79ECD009CE8B9 /* DDASLLogger.m in Sources */,
+				6EA2F38416E79ECD009CE8B9 /* DDFileLogger.m in Sources */,
+				6EA2F38516E79ECD009CE8B9 /* DDLog.m in Sources */,
+				6EA2F38616E79ECD009CE8B9 /* DDTTYLogger.m in Sources */,
+				6EA2F38716E79ECD009CE8B9 /* ContextFilterLogFormatter.m in Sources */,
+				6EA2F38816E79ECD009CE8B9 /* DispatchQueueLogFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EA2F35716E79EB2009CE8B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EA2F35816E79EB2009CE8B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EA2F36916E79EB2009CE8B9 /* CHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EA2F36A16E79EB2009CE8B9 /* en */,
+			);
+			name = CHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EA2F36C16E79EB2009CE8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EA2F36D16E79EB2009CE8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA2F36F16E79EB2009CE8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RainbowLogs/RainbowLogs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Lumberjack/\"";
+				INFOPLIST_FILE = "RainbowLogs/RainbowLogs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EA2F37016E79EB2009CE8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RainbowLogs/RainbowLogs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Lumberjack/\"";
+				INFOPLIST_FILE = "RainbowLogs/RainbowLogs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EA2F34616E79EB1009CE8B9 /* Build configuration list for PBXProject "RainbowLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA2F36C16E79EB2009CE8B9 /* Debug */,
+				6EA2F36D16E79EB2009CE8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA2F36E16E79EB2009CE8B9 /* Build configuration list for PBXNativeTarget "RainbowLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA2F36F16E79EB2009CE8B9 /* Debug */,
+				6EA2F37016E79EB2009CE8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EA2F34316E79EB1009CE8B9 /* Project object */;
+}
