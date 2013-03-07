@@ -12,8 +12,12 @@
 
 #import "CHViewController.h"
 
-
-int ddLogLevel = LOG_LEVEL_VERBOSE;
+//Set up log level
+#ifdef DEBUG
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+static const int ddLogLevel = LOG_LEVEL_WARN;
+#endif
 
 @implementation CHAppDelegate
 
