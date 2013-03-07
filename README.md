@@ -4,34 +4,34 @@ Code covering common mistakes made by iOS developers. Prepared for my CocoaHeads
 # Examples
 
 ## CALayerTrap
--------------------------
+
 Covers issues with displaying with with both rounded corners and shadow.
 
 
 ## Forty degrees in the shade
--------------------------
+
 Covers perfromance issues when using shadows in UITableView.
 
 ## View Not Loaded
--------------------------
+
 Trivial mistake with setting properties of the view before it's been loaded.
 
 ## What the ARC?!
--------------------------
+
 Reveals some problems developer might encounter when using ARC
 
 ## NSURLTrap
--------------------------
+
 How to increase the perfromance of your inifinite table view by 1000%.
 
 ## Too new
--------------------------
+
 Demonstrates how to use set of macros to avoid using methods not available in deployment target.
 
 [(Macros by Matt Galloway)](https://github.com/mattjgalloway/MJGFoundation).
 
 ## Rainbow Logs
--------------------------
+
 Demonstrates how to use Lumberjack with Xcode colors plugin.
 
 *  [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberjack)
