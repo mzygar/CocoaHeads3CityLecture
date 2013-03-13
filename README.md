@@ -1,5 +1,5 @@
 
-Code covering common mistakes made by iOS developers. Prepared for my CocoaHeads 3city Lecture
+Code covering common mistakes made by iOS developers. Prepared for my CocoaHeads 3city Lecture (First part can be found [here](http://www.slideshare.net/MichaZygar/cocoa-heads))
 
 # Examples
 
